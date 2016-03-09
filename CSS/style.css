@@ -1,5 +1,10 @@
-#title {
-    font-family: "Bodoni MT";
+#title
+{
+    font-family: "Gill Sans MT";
     color: #3A4A9F;
-    background-color: #DE0029;
+    background-color: #F4627D;
+    text-align: center;
+    border:10px double #3A4A9F;
+    font-size: 20px;
  }
+
