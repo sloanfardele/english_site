@@ -1,10 +1,21 @@
 #title
 {
-    font-family: "Gill Sans MT";
-    color: #3A4A9F;
-    background-color: #F4627D;
-    text-align: center;
-    border:10px double #3A4A9F;
     font-size: 20px;
  }
+
+#icone
+{
+    font-family: "Gill Sans MT";
+    color: #3A4A9F;
+    text-align: center;
+    border:3px double #ba103c;
+    width: 25%;
+    margin: auto;
+    height: auto;
+}
+
+.etoile
+{
+
+}
 
