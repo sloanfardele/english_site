@@ -1,21 +1,95 @@
-#title
-{
+#title {
     font-size: 20px;
- }
+}
 
-#icone
-{
+#icone {
     font-family: "Gill Sans MT";
-    color: #3A4A9F;
+    color: #002868;
     text-align: center;
-    border:3px double #ba103c;
+    border: 3px double #ba103c;
     width: 25%;
     margin: auto;
     height: auto;
 }
 
-.etoile
-{
 
+/*Hamburger menu*/
+
+a#hamb {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    padding: 11px 0 0 9px;
+    border-radius: 50%;
+    border: 1px solid #ba103c;
+    tap-highlight-color: transparent;
+}
+span {
+    display: block;
+    width: 16px;
+    height: 2px;
+    background: #002868;
+    transition: .7s;
+    pointer-events: none;
+}
+span:nth-child(2) {
+    margin: 3px 0;
+}
+.open {
+    border-color: #ba103c;
+}
+.open span {
+    background: #fff;
+}
+.open :first-child {
+    transform: translateY(5px) rotate(-45deg);
+}
+.open :nth-child(2) {
+    transform: rotate(-45deg);
+    opacity: 0;
+}
+.open :last-child {
+    transform: translateY(-5px) rotate(-135deg);
+}
+nav {
+    position: absolute;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #002868;
+    transform: translateX(-100%);
+    transition: .5s;
+}
+.open + nav {
+    transform: none;
+}
+code {
+    color: transparent;
+    font-size: 0;
 }
 
+ul {
+    margin: 1.5%;
+    margin-top: 30%;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 20px 5px;
+    font-size: 15px;
+    color: white;
+    font-family: "Gill Sans MT";
+}
+
+.link
+{
+    text-decoration: none;
+    color: white;
+
+}
