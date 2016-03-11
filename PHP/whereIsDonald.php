@@ -18,7 +18,7 @@ include("header.html");
 </head>
 
 <body>
-<div>
+<div id="game">
     <img src=../images/DonaldTrump.png id='donny' alt="" onclick="found()" >
 </div>
 </body>

@@ -1,5 +1,7 @@
-body {
-    background-image: url(../images/FouleDeMexicains.jpg);
+#game
+{
+    top-margin: 30%;
+    background: url(../images/FouleDeMexicains.jpg) no-repeat;
 }
 
 img {
