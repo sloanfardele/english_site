@@ -2,9 +2,10 @@
 {
     top-margin: 30%;
     background: url(../images/FouleDeMexicains.jpg) no-repeat;
+    height: 83%
 }
 
 img {
     height: 2%;
-    width: 2%;
+    width: 1.3%;
 }

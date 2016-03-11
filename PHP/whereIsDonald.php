@@ -14,14 +14,13 @@ include("header.html");
     <meta charset="utf-8">
     <title>Where is Donald ?</title>
     <link rel="stylesheet" type="text/css" href="../CSS/styleWhereIs.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 
 <body>
 <div id="game">
     <img src=../images/DonaldTrump.png id='donny' alt="" onclick="found()" >
 </div>
-</body>
 
 <script type="text/javascript" src="../JS/WhereIsDonald.js"></script>
+</body>
 </html>
