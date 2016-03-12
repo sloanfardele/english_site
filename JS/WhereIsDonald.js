@@ -18,20 +18,12 @@ function posAleat() {
     posx = posx % image.offsetWidth;
     posy = posy % image.offsetHeight;
 
-    console.log("posx");
-    console.log(posx);
-    console.log("tete");
-    console.log(tete.offsetWidth);
-
     posx = posx - tete.offsetWidth;
 
     if(posx<0)
     {
         alert("Erreur, rafraichir s'il vous plait(Ctrl+R ou F5");
     }
-
-
-
 
     document.getElementById("donny").style.marginLeft = posx + "px";
     document.getElementById("donny").style.marginTop = posy + "px";
