@@ -12,24 +12,31 @@ function posAleat() {
 
     var tete = document.getElementById("icone");
 
+    var donny=document.getElementById("donny");
+
     var posx = Math.round(Math.random() * (screen.width));
     var posy = Math.round(Math.random() * (screen.height));
 
     posx = posx % image.offsetWidth;
     posy = posy % image.offsetHeight;
 
-    posx = posx - tete.offsetWidth;
+
+    posx = posx - donny.offsetWidth;
+    posy = posy - donny.offsetHeight;
 
     if(posx<0)
     {
-        alert("Erreur, rafraichir s'il vous plait(Ctrl+R ou F5");
+        posx=0;
+    }
+    if(posy<0)
+    {
+        posy=0;
     }
 
-    document.getElementById("donny").style.marginLeft = posx + "px";
-    document.getElementById("donny").style.marginTop = posy + "px";
+    donny.style.marginLeft = posx + "px";
+    donny.style.marginTop = posy + "px";
 
 }
-
 
 
 
