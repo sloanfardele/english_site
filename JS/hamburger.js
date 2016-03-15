@@ -78,9 +78,10 @@ document.addEventListener("DOMContentLoaded", function() {
                         updateClass(target.item(i))
                     }
             }
+            /*
             if (e.target.nodeName.toLowerCase() == "a") {
                 e.preventDefault()
-            }
+            }*/
         }
     }
 
