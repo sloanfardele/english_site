@@ -5,12 +5,47 @@
 
 #donald
 {
-    float: right;
-    margin-right: 20%;
-
+    margin-left: 60%;
 }
 
 #quote
 {
     font-family: "Gill Sans MT";
+    font-size: 1.5em;
+}
+
+.guill
+{
+    height: 10%;
+    width: 4%;
+}
+
+.guill#guill-droite
+{
+    margin-left: 88%
+}
+
+#citation
+{
+    width: 40%;
+    margin-left:17%;
+    height: 20%
+}
+
+#pres
+{
+    font-family: "Gill Sans MT";
+    text-align: center;
+}
+
+#titre
+{
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+#sous-titre
+{
+    font-size: 1em;
+    margin-top: 0;
 }

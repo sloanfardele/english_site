@@ -10,19 +10,25 @@ function posAleat() {
 
     var image = document.getElementById("game");
 
-    var tete = document.getElementById("icone");
-
     var donny=document.getElementById("donny");
 
-    var posx = Math.round(Math.random() * (screen.width));
-    var posy = Math.round(Math.random() * (screen.height));
-
-    posx = posx % image.offsetWidth;
-    posy = posy % image.offsetHeight;
+    var posx = Math.round(Math.random() * (image.offsetHeight));
+    var posy = Math.round(Math.random() * (image.offsetWidth));
 
 
-    posx = posx - donny.offsetWidth;
-    posy = posy - donny.offsetHeight;
+
+    console.log(image.offsetHeight);
+    console.log(image.offsetWidth);
+
+    console.log(posx);
+    console.log(posy);
+
+
+
+    posx = posx - donny.offsetHeight;
+    posy = posy - donny.offsetWidth;
+
+
 
     if(posx<0)
     {
@@ -33,8 +39,9 @@ function posAleat() {
         posy=0;
     }
 
-    donny.style.marginLeft = posx + "px";
-    donny.style.marginTop = posy + "px";
+
+    donny.style.marginTop = posx + "px";
+    donny.style.marginLeft = posy + "px";
 
 }
 

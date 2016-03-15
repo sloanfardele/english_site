@@ -17,6 +17,10 @@ include("header.html");
 </head>
 
 <body>
+
+<div id="titre">
+    <p>Here, you have to find Donnie among his support (maybe)</p>
+</div>
 <div id="game">
     <img src=../images/DonaldTrump.png id='donny' alt="" onclick="found()" >
 </div>

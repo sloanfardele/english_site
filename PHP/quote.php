@@ -14,9 +14,15 @@ include("header.html");
     <link rel="stylesheet" type="text/css" href="../CSS/quotes.css">
 </head>
 <body>
+<div id="pres">
+    <p id="titre">Welcome on the Donald's Trump quote generator</p>
+    <p id="sous-titre">(Click on Donnie to see another <strike>mexican</strike> great quote !)</p>
+</div>
 <div id="affichage">
     <div id="citation">
+        <img src="../images/guillement_gauche.jpg" class="guill">
         <p id="quote"></p>
+        <img src="../images/guillemet-droite.png" class="guill" id="guill-droite">
     </div>
     <div id="donald">
         <img src="../images/trump-head.png" onclick="rdmQuote()">
