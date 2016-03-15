@@ -15,15 +15,16 @@ include("header.html");
 </head>
 <body>
 <div id="affichage">
+    <div id="quote">
+
+    </div>
     <div id="donald">
-        <img src="../images/trumpbg.jpg">
+        <img src="../images/trump-head.png" onclick="rdmQuote()">
     </div>
-    <div id="talkbubble">
-        <p>
-            hello
-        </p>
-    </div>
+
 </div>
+
+<script type="text/javascript" src="../JS/main.js"></script>
 </body>
 </html>
 
