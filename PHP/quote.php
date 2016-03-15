@@ -15,8 +15,8 @@ include("header.html");
 </head>
 <body>
 <div id="affichage">
-    <div id="quote">
-
+    <div id="citation">
+        <p id="quote"></p>
     </div>
     <div id="donald">
         <img src="../images/trump-head.png" onclick="rdmQuote()">
