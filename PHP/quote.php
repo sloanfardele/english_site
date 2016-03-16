@@ -16,7 +16,7 @@ include("header.html");
 <body>
 <div id="pres">
     <p id="titre">Welcome on the Donald's Trump quote generator</p>
-    <p id="sous-titre">(Click on Donnie to see another <strike>mexican</strike> great quote !)</p>
+    <p id="sous-titre">(Click on Donny to see another <strike>mexican</strike> great quote !)</p>
 </div>
 <div id="affichage">
     <div id="citation">

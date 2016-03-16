@@ -15,16 +15,6 @@ function posAleat() {
     var posx = Math.round(Math.random() * (image.offsetHeight));
     var posy = Math.round(Math.random() * (image.offsetWidth));
 
-
-
-    console.log(image.offsetHeight);
-    console.log(image.offsetWidth);
-
-    console.log(posx);
-    console.log(posy);
-
-
-
     posx = posx - donny.offsetHeight;
     posy = posy - donny.offsetWidth;
 
