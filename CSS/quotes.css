@@ -6,8 +6,9 @@
 #donald
 {
     margin-left: 60%;
+    position: fixed;
+    bottom:0;
 }
-
 #quote
 {
     font-family: "Gill Sans MT";
