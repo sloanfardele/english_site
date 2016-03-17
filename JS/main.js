@@ -2,6 +2,7 @@ citations = "An ‘extremely credible source’ has called my office and told me
 
 tabCitations = citations.split("|");
 
+
 window.onload(rdmQuote());
 
 function rdmQuote() {
