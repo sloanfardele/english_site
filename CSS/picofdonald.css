@@ -26,3 +26,8 @@
     header { padding: 0; }
 
 }
+
+#photo div img:hover
+{
+    cursor: url("../images/poop.png"),pointer;
+}
