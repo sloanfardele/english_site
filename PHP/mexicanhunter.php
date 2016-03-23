@@ -25,6 +25,7 @@ include("header.html");
         <h2>Time remaining: <span id="timer">2</span></h2>
     </div>
     <div id="response"></div>
+    <div id="fick"></div>
 </div>
 <script src="../JS/mexicanhunter.js"></script>
 </body>

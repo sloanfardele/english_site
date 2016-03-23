@@ -266,6 +266,8 @@ var game = (function(){
             //user won the game
             termimate();
             updateResponse("You won!");
+            var song = document.getElementById("fick");
+            song.innerHTML = '<audio src="../media/murica.mp3" autoplay>';
 
         }else if(didUserWin === 0 && attempts < 2 && cellsClicked >=3){
             updateResponse("You were close! Try again.");
