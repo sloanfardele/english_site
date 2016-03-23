@@ -14,6 +14,10 @@ include("header.html");
     <link rel="stylesheet" type="text/css" href="../CSS/mexicanhunter.css">
 </head>
 <body>
+<div id="pres">
+    <p id="titre">Kill as fast as possible all the mexican you can see</p>
+    <p id="sous-titre">(Click on the start button to play)</p>
+</div>
 <div>
     <table id="gameboard"></table>
     <button id="start">Start</button>
@@ -22,5 +26,6 @@ include("header.html");
     </div>
     <div id="response"></div>
 </div>
+<script src="../JS/mexicanhunter.js"></script>
 </body>
 </html>

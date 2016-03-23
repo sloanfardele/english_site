@@ -18,8 +18,8 @@ include("header.html");
 
 <body>
 
-<div id="titre">
-    <p>Here, you have to find Donny among these mexicans</p>
+<div id="pres">
+    <p id="titre">Here, you have to find Donny among these mexicans</p>
 </div>
 <div id="game">
     <img src=../images/DonaldTrump.png id='donny' alt="" onclick="found()" >

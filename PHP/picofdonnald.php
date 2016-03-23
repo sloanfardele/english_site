@@ -14,6 +14,9 @@ include("header.html");
     <link rel="stylesheet" type="text/css" href="../CSS/picofdonald.css">
 </head>
 <body>
+<div id="pres">
+    <p id="titre">Here, you can find the most beautifull pictures of our loved Donnie</p>
+</div>
 <div id="photo">
     <div><img src="../images/hallofdonnie1.jpg" onmouseover="playsong()" alt></div>
     <div><img src="../images/hallofdonnie2.jpg" onmouseover="playsong()" alt></div>
@@ -28,6 +31,7 @@ include("header.html");
     <div><img src="../images/hallofdonnie11.jpg" onmouseover="playsong()" alt></div>
     <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
 </div>
+<div id="audio"></div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <script src="../JS/picofdonald.js"></script>
 </body>

@@ -3,9 +3,12 @@
  */
 
 
-var h = document.getElementsByName("head");
+
 
 function playsong()
 {
-    h.appendChild("<audio src='../media/caca.mp3' autoplay>");  //marche pas erreur :"appendchild n'est pas une fonction
+    var div = document.createElement("div");
+    div.innerHTML ='<audio src="../media/caca.mp3" autoplay>';
+    document.body.appendChild(div);
+
 }

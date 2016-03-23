@@ -97,3 +97,23 @@ li {
     color: white;
     display:block;
 }
+
+#titre
+{
+    font-size: 2.5em;
+    margin-bottom:0;
+}
+
+
+#sous-titre
+{
+    font-size: 1em;
+    margin-top: 0;
+}
+
+#pres
+{
+    font-family: "Gill Sans MT";
+    text-align: center;
+}
+

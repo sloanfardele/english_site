@@ -3,14 +3,25 @@
 }
 
 #gameboard tr td{
-    width:50px;
-    height:50px;
+    width:100px;
+    height:100px;
     text-align:center;
     border:1px solid #a1a1a1;
+
+}
+
+#gameboard
+{
+    margin: auto;
 }
 
 .cell {
-    background-color:#FF0000;
+    background:url('../images/mexicain.jpg');
+}
+
+.cell:hover
+{
+    cursor: url('../images/gun.gif'), pointer;
 }
 
 .cell-white {
@@ -23,4 +34,14 @@ button{
     padding: 10px;
     width: 150px;
     margin-top: 20px;
+}
+
+body
+{
+    font-family: "Gill Sans MT";
+}
+
+#response
+{
+    font-size: 2em;
 }
