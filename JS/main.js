@@ -10,3 +10,9 @@ function rdmQuote() {
     nbRandom = Math.round(nbRandom)%tabCitations.length;
     document.getElementById("quote").innerHTML = tabCitations[nbRandom];
 }
+
+function stopMusic()
+{
+    var song = document.getElementById("hymne");
+    song.innerHTML = "";
+}
