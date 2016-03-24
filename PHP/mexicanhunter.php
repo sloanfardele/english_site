@@ -16,7 +16,7 @@ include("header.html");
 </head>
 <body>
 <div id="pres">
-    <p id="titre">Kill as fast as possible all the mexican you can see</p>
+    <p id="titre">Kill all the mexicans you can see as fast as possible </p>
     <p id="sous-titre">(Click on the start button to play)</p>
 </div>
 <div>
