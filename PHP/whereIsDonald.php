@@ -12,7 +12,7 @@ include("header.html");
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Where is Donald ?</title>
+    <title>Make Waldo great again</title>
     <link rel="stylesheet" type="text/css" href="../CSS/styleWhereIs.css">
 </head>
 
