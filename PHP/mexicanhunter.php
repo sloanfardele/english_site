@@ -12,6 +12,7 @@ include("header.html");
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../CSS/mexicanhunter.css">
+    <title>Make hunting great again</title>
 </head>
 <body>
 <div id="pres">

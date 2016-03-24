@@ -12,10 +12,11 @@ include("header.html");
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../CSS/picofdonald.css">
+    <title>Make pictures great again</title>
 </head>
 <body>
 <div id="pres">
-    <p id="titre">Here, you can find the most beautifull pictures of our loved Donnie</p>
+    <p id="titre">Here, you can find the most beautiful pictures of our loved Donnie</p>
 </div>
 <div id="photo">
     <div><img src="../images/hallofdonnie1.jpg" onmouseover="playsong()" alt></div>
