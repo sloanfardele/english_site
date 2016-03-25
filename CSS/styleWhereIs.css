@@ -3,6 +3,8 @@
     margin-top:0;
     background: url(../images/FouleDeMexicains.jpg) repeat;
     height: 83%;
+    background-size: cover;
+
 }
 
 img {
