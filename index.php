@@ -6,7 +6,7 @@
  * Date: 08/03/2016
  * Time: 21:47
  */
-include("header.html");
+include("header.php");
 ?>
 <head>
     <meta charset="utf-8">
