@@ -1,3 +1,12 @@
+<?php
+$counter = 'counter.txt';
+
+if(!file_exists($counter)) {
+    file_put_contents($counter, 0);
+}
+
+file_put_contents($counter, 1 + file_get_contents($counter));
+?>
 <html>
 <?php
 /**
@@ -6,7 +15,7 @@
  * Date: 08/03/2016
  * Time: 21:47
  */
-include("header.html");
+include("header.php");
 ?>
 <head>
     <meta charset="utf-8">

@@ -5,7 +5,7 @@
  * Date: 22/03/2016
  * Time: 15:10
  */
-include("header.html");
+include("header.php");
 
 ?>
 

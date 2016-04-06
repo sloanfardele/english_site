@@ -6,7 +6,7 @@
  * Time: 22:56
  */
 
-include("header.html");
+include("header.php");
 ?>
 <!DOCTYPE html>
 <html>
