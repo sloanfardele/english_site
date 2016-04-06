@@ -1,11 +1,11 @@
 <?php
-$counter = 'counter';
+$counter = 'counter.txt';
 
-if(!file_exists('counter')) {
+if(!file_exists($counter)) {
     file_put_contents($counter, 0);
 }
 
-file_put_contents($counter, 1 + file_get_contents('counter'));
+file_put_contents($counter, 1 + file_get_contents($counter));
 ?>
 <head>
     <link rel="stylesheet" type="text/css" href="/CSS/style.css"/>
