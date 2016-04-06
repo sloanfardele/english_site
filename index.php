@@ -1,3 +1,12 @@
+<?php
+$counter = 'counter.txt';
+
+if(!file_exists($counter)) {
+    file_put_contents($counter, 0);
+}
+
+file_put_contents($counter, 1 + file_get_contents($counter));
+?>
 <html>
 <?php
 /**
